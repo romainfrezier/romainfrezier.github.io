@@ -314,6 +314,27 @@
         margin-bottom: 40px;
     }
 
+    /* Achievements Section
+    /* ----------------------------------------------------------------- */
+
+    .nuit {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nuit .badge {
+        max-width: 80%;
+        display: flex;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .nuit .description {
+        width: 100%;
+        display: flex;
+        margin: auto;
+    }
+
     /* footer
    ------------------------------------------------------------------------ */
 

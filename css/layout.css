@@ -12,6 +12,7 @@
    d. Resume Section
    e. Portfolio Section
    f. Footer
+   g. Achievements Section
 
 ===================================================================== */
 
@@ -361,10 +362,13 @@ button {
 
 /* Portfolio Content */
 #portfolio-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: inline;
 }
+
+#portfolio-wrapper .description {
+    width: 100%;
+}
+
 #portfolio-wrapper .columns {
     margin-bottom: 36px;
 }
@@ -534,13 +538,13 @@ footer .social-links li:first-child {
     width: 100%;
 }
 
-.description {
+.nuit .description {
     width: 600px;
     display: flex;
     flex-direction: column;
 }
 
-.description h2 {
+.nuit .description h2 {
     font: 24px 'opensans-semibold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -548,14 +552,15 @@ footer .social-links li:first-child {
     color: #95a3a3;
 }
 
-.description p {
+.nuit .description p {
     text-align: justify;
 }
 
-.description a {
+.nuit .description a {
     color: #fff;
+    font-style: italic;
 }
 
-.description a:hover, .description a:focus {
+.nuit .description a:hover, .nuit .description a:focus {
     color: #f06000;
 }
