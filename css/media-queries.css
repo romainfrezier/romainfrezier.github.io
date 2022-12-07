@@ -367,6 +367,16 @@
         font-size: 18px;
         line-height: 54px;
     }
+
+    /* Skills Section
+    /* ----------------------------------------------------------------- */
+    .small-slider {
+        width: 90%
+    }
+
+    .language-type-container {
+        width: 90%;
+    }
 }
 
 /* mobile narrow
